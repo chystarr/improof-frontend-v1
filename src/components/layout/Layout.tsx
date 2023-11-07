@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export default function Layout({ content }: LayoutProps) {
   return (
-    <div className="flex h-screen w-screen justify-between bg-slate-200">
+    <div className="flex h-screen justify-between bg-slate-200">
       <LeftSidebar />
       <div className="w-full">
         {content}

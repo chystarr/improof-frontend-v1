@@ -25,8 +25,7 @@ export default function PostPreviewCard() {
         </div>
       </CardHeader>
 
-      {/* TODO: stop horizontal scrollbar from appearing when CardContent component is used */}
-      <CardContent>
+      <CardContent className="w-2">
         <img src="/smiley-face.png" className="h-24 w-32" />
       </CardContent>
 
