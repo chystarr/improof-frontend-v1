@@ -8,9 +8,9 @@ interface LayoutProps {
 
 export default function Layout({ content }: LayoutProps) {
   return (
-    <div className="flex h-screen justify-between">
+    <div className="flex h-screen justify-center">
       <LeftSidebar />
-      <div className="w-full">
+      <div className="w-2/3">
         {content}
         <Outlet />
       </div>

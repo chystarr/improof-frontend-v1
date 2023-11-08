@@ -3,7 +3,7 @@ import { Home, Search, Heart } from "react-feather";
 
 export default function LeftSidebar() {
   return (
-    <div className="h-full w-72 flex flex-col items-center">
+    <div className="h-full w-1/6 fixed top-0 left-0 flex flex-col items-center">
       <div className="h-32 p-4">
         <img src="/improof-logo.png" />
       </div>
