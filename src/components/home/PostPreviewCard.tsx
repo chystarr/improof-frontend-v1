@@ -18,9 +18,9 @@ export default function PostPreviewCard() {
           <div className="flex flex-col items-left">
             <div className="flex flex-row space-x-3">
               <p className="font-medium">Your Name</p>
-              <p className="text-gray-300">@username</p>
-              <p className="text-gray-300">-</p>
-              <p className="text-gray-300">timestamp</p>
+              <p className="text-gray-500">@username</p>
+              <p className="text-gray-500">-</p>
+              <p className="text-gray-500">timestamp</p>
             </div>
             <div className="font-semibold text-lg text-purple">
               timeline title
