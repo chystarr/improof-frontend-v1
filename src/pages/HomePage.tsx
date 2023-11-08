@@ -9,7 +9,7 @@ export default function HomePage() {
         move home page top bar content back here
       </div>
 
-      <div className="w-full flex flex-col items-center space-y-4 bg-purple-200">
+      <div className="w-full flex flex-col items-center space-y-4 bg-contentBackground">
         <PostPreviewCard />
         <PostPreviewCard />
         <PostPreviewCard />
