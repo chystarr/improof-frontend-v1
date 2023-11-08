@@ -10,7 +10,7 @@ export default function Layout({ content }: LayoutProps) {
   return (
     <div className="flex h-screen justify-between">
       <LeftSidebar />
-      <div className="w-full border border-red-500">
+      <div className="w-full">
         {content}
         <Outlet />
       </div>
