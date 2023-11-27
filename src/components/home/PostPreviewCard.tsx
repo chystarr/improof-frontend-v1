@@ -29,6 +29,7 @@ export default function PostPreviewCard() {
           </div>
         </CardHeader>
 
+        {/* TODO: Replace hr components with shadcn separators? */}
         <CardContent className="">
           <div className="flex flex-col items-center space-y-8">
             <img

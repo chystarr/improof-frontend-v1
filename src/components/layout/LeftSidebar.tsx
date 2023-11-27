@@ -1,5 +1,14 @@
 import Button from "@/components/ui/button";
-import { Home, Search, Heart } from "react-feather";
+import {
+  Home,
+  Bell,
+  Send,
+  Heart,
+  Bookmark,
+  Flag,
+  Clock,
+  Settings,
+} from "react-feather";
 
 export default function LeftSidebar() {
   return (
@@ -13,26 +22,38 @@ export default function LeftSidebar() {
           HOME
         </Button>
         <Button variant="sidebarOption" className="w-full px-4 justify-start">
-          <Search className="mr-2" />
-          EXPLORE
+          <Bell className="mr-2" />
+          NOTIFICATIONS
+        </Button>
+        <Button variant="sidebarOption" className="w-full px-4 justify-start">
+          <Send className="mr-2" />
+          MESSAGES
         </Button>
         <Button variant="sidebarOption" className="w-full px-4 justify-start">
           <Heart className="mr-2" />
-          BUTTON
+          INSPIRATION
         </Button>
         <Button variant="sidebarOption" className="w-full px-4 justify-start">
-          <Heart className="mr-2" />
-          BUTTON
+          <Bookmark className="mr-2" />
+          COLLECTIONS
         </Button>
         <Button variant="sidebarOption" className="w-full px-4 justify-start">
-          <Heart className="mr-2" />
-          BUTTON
+          <Flag className="mr-2" />
+          GOALPOSTS
         </Button>
         <Button variant="sidebarOption" className="w-full px-4 justify-start">
-          <Heart className="mr-2" />
-          BUTTON
+          <Clock className="mr-2" />
+          TIMELINES
         </Button>
-        <div className="pt-6">post button :3</div>
+        <Button variant="sidebarOption" className="w-full px-4 justify-start">
+          <Settings className="mr-2" />
+          SETTINGS
+        </Button>
+        <div className="pt-6 flex justify-center">
+          <Button className="rounded-[30px] py-4 px-16 bg-[#DD1F3A] font-bold">
+            POST
+          </Button>
+        </div>
       </div>
       <div>user info thing</div>
     </div>
