@@ -18,9 +18,9 @@ export default function PostPreviewCard() {
           <div className="flex flex-col items-left">
             <div className="flex flex-row space-x-3">
               <p className="font-medium">Your Name</p>
-              <p className="text-gray-300">@username</p>
-              <p className="text-gray-300">-</p>
-              <p className="text-gray-300">timestamp</p>
+              <p className="text-gray-500">@username</p>
+              <p className="text-gray-500">-</p>
+              <p className="text-gray-500">timestamp</p>
             </div>
             <div className="font-semibold text-lg text-purple">
               timeline title
@@ -29,6 +29,7 @@ export default function PostPreviewCard() {
           </div>
         </CardHeader>
 
+        {/* TODO: Replace hr components with shadcn separators? */}
         <CardContent className="">
           <div className="flex flex-col items-center space-y-8">
             <img
@@ -38,19 +39,19 @@ export default function PostPreviewCard() {
 
             <div className="flex flex-row items-center">
               <img
-                src="https://media.istockphoto.com/id/1413985191/photo/bengal-cat-looking-up-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ALBZdi9lmDFiAuZjoZkT4EMEuRlRVe2_8KjtpepyF5s="
+                src="/smiley-face.png"
                 alt="Cat (placeholder)"
                 className="h-32 w-48 border-2 rounded-lg"
               />
               <hr className="w-10 border-2" />
               <img
-                src="https://media.istockphoto.com/id/1413985191/photo/bengal-cat-looking-up-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ALBZdi9lmDFiAuZjoZkT4EMEuRlRVe2_8KjtpepyF5s="
+                src="/smiley-face.png"
                 alt="Cat (placeholder)"
                 className="h-32 w-48 border-2 rounded-lg"
               />
               <hr className="w-10 border-2" />
               <img
-                src="https://media.istockphoto.com/id/1413985191/photo/bengal-cat-looking-up-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ALBZdi9lmDFiAuZjoZkT4EMEuRlRVe2_8KjtpepyF5s="
+                src="/smiley-face.png"
                 alt="Cat (placeholder)"
                 className="h-32 w-48 border-2 rounded-lg"
               />
